@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 
-function NavigationSecondary() {
+function NavigationSecondary({ footer }) {
+  const condition = footer ? "flex-col text-black" : " underline text-white";
   return (
     <nav>
-      <ul className="flex gap-4 text-white underline">
+      <ul className={`flex ${condition} gap-4`}>
         <li>
           <NavLink to="/about">About</NavLink>
         </li>

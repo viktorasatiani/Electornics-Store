@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         nunito: ["Nunito", "sans-serif"],
       },
+      backgroundImage: {
+        helpCenter: "url(/helpCenterImage.webp)",
+      },
     },
   },
   plugins: [],

@@ -7,7 +7,7 @@ function Header() {
     <header className="grid grid-rows-3 font-nunito">
       <HeaderNavSecondary />
       <InlineSearchNav />
-      <MainNav />
+      <MainNav main={true} />
     </header>
   );
 }
